@@ -1,82 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Bath&Body Works | Contact Us</title>
+    <meta name="description" content="A Project Completed for an Assignment">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/png" href="img/494.png" sizes="196x196" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/bblogo.png" sizes="196x196" />
+    <title>Bath&Body Works | Contact Us</title>
 </head>
 
-<body
-    style="background: url('img/creme.jpg') no-repeat;background-size: cover;background-attachment: fixed;background-position: center;background-repeat: no-repeat;">
+<body class="contact-us">
     <header>
         <div class="container">
-            <div id="branding">
-                <h1><img src="./img/B.png" alt="B & B works" height="20%" width="100%"></h1>
+            <div class="branding">
+                <img src="img/B.png" alt="B & B works" class="main-logo">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Product.html">
+                                Products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ProductOrder.html">
+                                Product Order
+                            </a>
+                        </li>
+                        <li class="current">
+                            <a href="ContactUs.html">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">
-                            <center>About Us</center>
-                        </a></li>
-                    <li><a href="Product.html">
-                            <center>Products</center>
-                        </a></li>
-                    <li><a href="ProductOrder.html">
-                            <center>Product Order</center>
-                        </a></li>
-                    <li class="current"><a href="ContactUs.html">
-                            <center>Contact Us</center>
-                        </a></li>
-                </ul>
-            </nav>
         </div>
     </header>
 
-    <section id="main">
-        <div class="container contact-main">
-            <article class="contact-details">
-                <h4>ONLINE CUSTOMER CARE</h4>
-                Call us at 1-800-756-5005 or <br> send us an email (6AM - 2AM ET 7 days/week).<br>
-                TDD 1-877-215-5245.
+    <main class="container">
+        <div class="contact-main">
+            <div class="contact-details">
+                <div class="info">
+                    <h4>ONLINE CUSTOMER CARE</h4>
+                    <p>
+                        Call us at 1-800-756-5005 or
+                    </p>
+                    <p>
+                        send us an email (6AM - 2AM ET 7 days/week).
+                    </p>
+                    <p>
+                        TDD 1-877-215-5245.
+                    </p>
+                </div>
                 <hr>
-                <h4>STORE CUSTOMER CARE</h4>
-                Call us at 1-800-395-1001 or send us an email (9AM - 5PM ET Monday - Friday).<br>
-                TDD 1-866-315-3129.<br>
+                <div class="info">
+                    <h4>STORE CUSTOMER CARE</h4>
+                    <p>
+                        Call us at 1-800-395-1001 or send us an email (9AM - 5PM ET Monday - Friday).
+                    </p>
+                    <p>
+                        TDD 1-866-315-3129.
+                    </p>
+                </div>
                 <hr>
-                <h4>ACCESSIBILITY SUPPORT</h4>
-                Call us at 1-800-531-4504 (6AM - 2AM ET 7 days/week).<br>
-                <hr>
-                <h4>MAILING ADDRESS</h4>
-                7 Limited Parkway East
-                Reynoldsburg, OH 43068
-            </article>
+                <div class="info">
+                    <h4>ACCESSIBILITY SUPPORT</h4>
+                    <p>
+                        Call us at 1-800-531-4504 (6AM - 2AM ET 7 days/week).
+                    </p>
 
-            <aside id="sidebar-1" class="contact-form">
+                </div>
+                <hr>
+                <div class="info">
+                    <h4>MAILING ADDRESS</h4>
+                    <p>
+                        7 Limited Parkway East
+                        Reynoldsburg, OH 43068
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-form">
                 <div class="dark">
                     <form class="feedback" action="contact-us.jsp">
                         <fieldset>
                             <legend>
                                 <h2>
-                                    <center><b>Send us a Message:</b></center>
+                                    <b>Send us a Message</b>
                                 </h2>
                             </legend>
                             <div>
-                                <label>Feedback</label><br>
-                                <textarea placeholder="How do you like our website?" name="Feeback" required></textarea>
+                                <label>Feedback
+                                    <textarea placeholder="How do you like our website?" name="Feedback"
+                                        required></textarea>
+                                </label>
                             </div>
                             <div>
-                                <label>Name</label><br>
-                                <input type="text" placeholder="Who are you?" name="Name" required>
+                                <label>Name
+                                    <input type="text" placeholder="Who are you?" name="Name" required>
+                                </label>
                             </div>
                             <div>
-                                <label>Email</label><br>
-                                <input type="email" placeholder="How can we communicate with you?" name="Email"
-                                    required>
+                                <label>Email
+                                    <input type="email" placeholder="How can we communicate with you?" name="Email"
+                                        required>
+                                </label>
                             </div>
                             <div>
-                                <label>Phone Number</label><br>
+                                <label>Phone Number</label>
                                 <input type="number" placeholder="How can we communicate with you?" name="Email"
                                     required>
                             </div>
@@ -85,31 +121,29 @@
                         </fieldset>
                     </form>
                 </div>
-            </aside>
+            </div>
+
         </div>
-    </section>
+    </main>
 
     <footer>
-        <p>
-            <center>
-                <h4>Want more updates on the brand?? <br> Follow Us</h4>
-                <a href="https://www.facebook.com/bathandbodyworks/" class="icon">
-                    <img src="img\Facebook.png" width="40" height="40" alt="facebook"></a>
+        <p>Want more updates on the brand?? <br> Follow Us</p>
+        <a href="https://www.facebook.com/bathandbodyworks/" class="icon">
+            <img src="img/Facebook.png" width="40" height="40" alt="facebook"></a>
 
-                <a href="https://twitter.com/bathbodyworks?lang=en" class="icon">
-                    <img src="img\Twitter.png" width="40" height="40" alt="twitter"></a>
+        <a href="https://twitter.com/bathbodyworks?lang=en" class="icon">
+            <img src="img/Twitter.png" width="40" height="40" alt="twitter"></a>
 
-                <a href="https://www.instagram.com/bathandbodyworks/?hl=en" class="icon"
-                    style="width:24px; height:24px; margin:4px 6px 8px 0;">
-                    <img src="img\Instagram.png" width="40" height="40" alt="instagram"></a>
+        <a href="https://www.instagram.com/bathandbodyworks/?hl=en" class="icon">
+            <img src="img/Instagram.png" width="40" height="40" alt="instagram"></a>
 
-                <a href="https://www.youtube.com/user/bathandbodyworks" class="icon">
-                    <img src="img\youtube.png" width="40" height="40" alt="youtube"></a>
+        <a href="https://www.youtube.com/user/bathandbodyworks" class="icon">
+            <img src="img/youtube.png" width="40" height="40" alt="youtube"></a>
 
-                <a href="https://www.pinterest.com/bathbodyworks/" class="icon">
-                    <img src="img\pinterest.png" width="40" height="40" alt="pintrest"></a>
-                <br> Bath&Body Works &copy; 2018 by Sumaiya Kawsar<br /> For Java Web Programming
-            </center>
+        <a href="https://www.pinterest.com/bathbodyworks/" class="icon">
+            <img src="img/pinterest.png" width="40" height="40" alt="pinterest"></a>
+        <br> Bath&Body Works &copy; 2018 by <a href="https://github.com/sumaiyakawsar">Sumaiya Kawsar</a><br />
+        For Java Web Programming
     </footer>
 </body>
 

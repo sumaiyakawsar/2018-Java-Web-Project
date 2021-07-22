@@ -1,151 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Bath&Body Works | Product Order</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/style.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/494.png" sizes="196x196" />
-
+    <meta name="description" content="A Project Completed for an Assignment">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/bblogo.png" sizes="196x196" />
+    <title>Bath&Body Works | Product Order</title>
 </head>
 
-<body
-    style="background: url('img/rose.jpg') no-repeat;background-size: cover;   background-attachment: fixed;background-position: center; background-repeat: no-repeat">
+<body class="product-order-page">
+
     <header>
         <div class="container">
-            <div id="branding">
-                <h1><img src="./img/B.png" alt="B & B works" height="30%" width="100%"></h1>
+            <div class="branding">
+                <img src="img/B.png" alt="B & B works" class="main-logo" width="100%" height="20%">
                 <nav>
                     <ul>
-                        <li><a href="index.html">
-                                <center>About Us</center>
-                            </a></li>
-                        <li><a href="Product.html">
-                                <center>Products</center>
-                            </a></li>
-                        <li class="current"><a href="ProductOrder.html">
-                                <center>Product Order</center>
-                            </a></li>
+                        <li>
+                            <a href="index.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Product.html">
+                                Products
+                            </a>
+                        </li>
+                        <li class="current">
+                            <a href="ProductOrder.html">
+                                Product Order
+                            </a>
+                        </li>
                         <li><a href="ContactUs.html">
-                                <center>Contact Us</center>
-                            </a></li>
+                                Contact Us
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <section id="main">
-        <div class="container">
-            <aside id="sidebar">
-                <div class="dark">
-                    <form class="feedback" action="product-order.jsp">
-                        <fieldset>
-                            <h5>Please fill in the order form below with the items you want to purchase from our
-                                store.<br>
-                                Thank you for choosing our services!</h5>
-                            <legend>
-                                <h3><b>Order Product : </b></h3>
-                            </legend>
-                            <div>
-                                <label>Full Name</label><br>
-                                <input type="text" placeholder="Full Name" name="Name" required>
-                            </div>
-                            <div>
-                                <label>Email</label><br>
-                                <input type="email" placeholder="Email" name="Email" required>
-                            </div>
-                            <div>
-                                <label>Phone Number</label><br>
-                                <input type="number" placeholder="How can we communicate with you?" name="Email"
-                                    required>
-                            </div>
-                            <div>
-                                <label>
-                                    <h2>Address</h2>
-                                </label>
-                                <input type="text" placeholder="Street Address" name="Street Address" required>
-                                <input type="text" placeholder="Street Address" name="Street Address" required>
-                                <input type="text" placeholder="City" name="City" required>
-                                <input type="text" placeholder="State" name="State" required>
-                                <input type="text" placeholder="Postal/Zipcode" name="Zipcode" required>
-                                <select name="country" id="Country">
-                                    <option value="">Country</option>
-                                    <option value="Australia">Australia</option>
-                                    <option value="Bangladesh">Bangladesh</option>
-                                    <option value="Canada">Canada</option>
-                                    <option value="Indonesia">Indonesia</option>
-                                    <option value="Malaysia">Malaysia</option>
-                                    <option value="Netherlands">Netherlands</option>
-                                    <option value="New Zealand">New Zealand</option>
-                                    <option value="Saudi Arabia">Saudi Arabia</option>
-                                    <option value="Singapore">Singapore</option>
-                                    <option value="Switzerland">Switzerland</option>
-                                    <option value="United Arab Emirates">United Arab Emirates</option>
-                                    <option value="United Kingdom">United Kingdom</option>
-                                    <option value="United States">United States</option>
-                                    <option value="Yemen">Yemen</option>
-                                </select>
-                            </div>
-                            <label>Product(s) </label>
-                            <div class="Product">
-                                <ul>
-                                    <li>
-                                        <label for="Mist">Mist</label>
-                                        <input id="Mist" type="checkbox" name="Mist" value="Mist">
-
-                                    </li>
-                                    <li>
-                                        <label for="Lotion"> Body Lotion</label>
-
-                                        <input type="checkbox" name="Lotion" value="Body Lotion" />
-                                    </li>
-                                    <li>
-                                        <label for="Candle"> Candle</label>
-
-                                        <input type="checkbox" name="Products" value="Candles" />
-                                    </li>
-                                    <li>
-                                        <label for="Handwash"> Hand wash</label>
-
-                                        <input type="checkbox" name="Handwash" value="Hand wash" />
-                                    </li>
-                                    <li> <label for="scent"> Car scent</label>
-
-                                        <input type="checkbox" name="scent" value="Carscents">
-                                    </li>
-                                </ul>
-                            </div>
-                            <p>
-                                <button class="button_1" type="submit">Submit</button>
-                            </p>
-                        </fieldset>
-                    </form>
+    <main class="container">
+        <form class="feedback" action="product-order.jsp">
+            <fieldset>
+                <h5>Please fill in the order form below with the items you want to purchase from our
+                    store.<br>
+                    Thank you for choosing our services!</h5>
+                <legend>
+                    <h3><b>Order Product</b></h3>
+                </legend>
+                <div>
+                    <label>Full Name</label><br>
+                    <input type="text" placeholder="Full Name" name="Name" required>
                 </div>
-            </aside>
-        </div>
-    </section>
+                <div>
+                    <label>Email</label><br>
+                    <input type="email" placeholder="Email" name="Email" required>
+                </div>
+                <div>
+                    <label>Phone Number</label><br>
+                    <input type="number" placeholder="How can we communicate with you?" name="Email" required>
+                </div>
+                <div>
+                    <label>
+                        <h2>Address</h2>
+                    </label>
+                    <input type="text" placeholder="Street Address" name="Street Address" required>
+                    <input type="text" placeholder="Street Address" name="Street Address" required>
+                    <input type="text" placeholder="City" name="City" required>
+                    <input type="text" placeholder="State" name="State" required>
+                    <input type="text" placeholder="Postal/Zipcode" name="Zipcode" required>
+                    <select name="country" id="Country">
+                        <option value="">Country</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States">United States</option>
+                        <option value="Yemen">Yemen</option>
+                    </select>
+                </div>
+                <label>Product(s) </label>
 
+                <ul class="products-checkbox">
+                    <li>
+                        <label for="Mist">
+                            <input id="Mist" type="checkbox" name="Mist" value="Mist">
+                            Mist
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Lotion">
+                            <input type="checkbox" name="Lotion" value="Body Lotion" />
+                            Body Lotion
+                        </label>
+                    </li>
+                    <li><label for="Candle">
+                            <input type="checkbox" name="Products" value="Candles" />
+                            Candle
+                        </label>
+                    </li>
+                    <li> <label for="Handwash">
+                            <input type="checkbox" name="Handwash" value="Hand wash" />
+                            Hand wash
+                        </label>
+                    </li>
+                    <li><label for="scent">
+                            <input type="checkbox" name="scent" value="Car scent">
+                            Car scent
+                        </label>
+                    </li>
+                </ul>
+                <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+    </main>
     <footer>
-        <center>
-            <h4>Want more updates on the brand?? <br> Follow Us</h4>
-            <a href="https://www.facebook.com/bathandbodyworks/" class="icon">
-                <img src="img\Facebook.png" width="40" height="40" alt="facebook"></a>
+        <p>Want more updates on the brand?? <br> Follow Us</p>
+        <a href="https://www.facebook.com/bathandbodyworks/" class="icon">
+            <img src="img/Facebook.png" width="40" height="40" alt="facebook"></a>
 
-            <a href="https://twitter.com/bathbodyworks?lang=en" class="icon">
-                <img src="img\Twitter.png" width="40" height="40" alt="twitter"></a>
+        <a href="https://twitter.com/bathbodyworks?lang=en" class="icon">
+            <img src="img/Twitter.png" width="40" height="40" alt="twitter"></a>
 
-            <a href="https://www.instagram.com/bathandbodyworks/?hl=en" class="icon"
-                style="width:24px; height:24px; margin:4px 6px 8px 0;">
-                <img src="img\Instagram.png" width="40" height="40" alt="instagram"></a>
+        <a href="https://www.instagram.com/bathandbodyworks/?hl=en" class="icon">
+            <img src="img/Instagram.png" width="40" height="40" alt="instagram"></a>
 
-            <a href="https://www.youtube.com/user/bathandbodyworks" class="icon">
-                <img src="img\youtube.png" width="40" height="40" alt="youtube"></a>
+        <a href="https://www.youtube.com/user/bathandbodyworks" class="icon">
+            <img src="img/youtube.png" width="40" height="40" alt="youtube"></a>
 
-            <a href="https://www.pinterest.com/bathbodyworks/" class="icon">
-                <img src="img\pinterest.png" width="40" height="40" alt="pintrest"></a>
-            <br> Bath&Body Works &copy; 2018 by Sumaiya Kawsar<br /> For Java Web Programming
-        </center>
+        <a href="https://www.pinterest.com/bathbodyworks/" class="icon">
+            <img src="img/pinterest.png" width="40" height="40" alt="pintrest"></a>
+        <br> Bath&Body Works &copy; 2018 by <a href="https://github.com/sumaiyakawsar">Sumaiya Kawsar</a><br />
+        For Java Web Programming
     </footer>
 
 </body>
