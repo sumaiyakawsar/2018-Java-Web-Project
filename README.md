@@ -3,7 +3,7 @@
 
  
 
- ![Created Badge](https://badges.pufler.dev/created/sumaiyakawsar/2018-Java-Web-Project?&style=plastic&color=black&labelColor=1AEE0B) ![Updated Badge](https://badges.pufler.dev/updated/sumaiyakawsar/2018-Java-Web-Project?&style=plastic&color=black&labelColor=0004FF) ![Visits Badge](https://badges.pufler.dev/visits/sumaiyakawsar/2018-Java-Web-Project?&style=plastic&color=black&labelColor=BF3F41)   ![Reason Badge](https://img.shields.io/badge/University_Assignment-Individual-ffff00?style=plastic&color=000000&labelColor=ffff00) ![Subject Badge](https://img.shields.io/badge/Subject-Java_Web_Programming-blue?style=plastic&labelColor=000000)  
+ ![Created Badge](https://badges.pufler.dev/created/sumaiyakawsar/2018-Java-Web-Project?&style=plastic&color=black&labelColor=1AEE0B) ![Updated Badge](https://badges.pufler.dev/updated/sumaiyakawsar/2018-Java-Web-Project?&style=plastic&color=black&labelColor=0004FF) ![Visits Badge](https://badges.pufler.dev/visits/sumaiyakawsar/2018-Java-Web-Project?&style=plastic&color=black&labelColor=BF3F41)   ![Reason Badge](https://img.shields.io/badge/University_Assignment-Individual-10b981?style=plastic&color=000000&labelColor=10b981) ![Subject Badge](https://img.shields.io/badge/Subject-Java_Web_Programming-blue?style=plastic&labelColor=000000)  
 
 </h1>
 
